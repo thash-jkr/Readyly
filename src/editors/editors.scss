@@ -1,0 +1,22 @@
+.editor-content{
+
+  .edit-icon{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #3333334d
+  }
+
+  .edit-icon:hover, .active{
+    color: #333333
+  }
+
+  .editor-area{
+    padding: 10px 0;
+    pointer-events: auto;
+  }
+
+  .disabled{
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,36 @@
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button{
+    margin:0;
+    outline: none;
+    background: transparent;
+    border:none;
+  }
+
+  .btn{
+    width: 70px;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+
+  .btn-save{
+    margin-right: 10px;
+    border:1px solid #0ba713;
+  }
+  .btn-cancel{
+    border:1px solid #e00c0c;
+  }
+
+  .btn-save:hover, .btn-cancel:hover{
+    background-color: #0ba713;
+    border:1px solid #33333333;
+    color: #f7f7f7;
+  }
+
+  .btn-cancel:hover{
+    background-color: #e00c0c;
+  }
+}
